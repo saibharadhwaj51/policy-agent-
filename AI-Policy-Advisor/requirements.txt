@@ -1,0 +1,38 @@
+# --- Core ---
+python-dotenv==1.0.1
+pydantic==2.7.4
+pydantic-settings==2.3.4
+
+# --- LLM / RAG / Agents ---
+google-generativeai>=0.7.0
+langchain>=0.1.0
+langchain-community>=0.0.1
+sentence-transformers>=3.0.0
+chromadb>=0.5.0
+crewai>=1.14.7
+
+# --- PDF / OCR ---
+pymupdf>=1.24.5
+pytesseract==0.3.10
+pillow==10.4.0
+
+# --- Backend / Frontend ---
+fastapi==0.111.0
+uvicorn==0.30.1
+streamlit==1.36.0
+
+# --- Reports ---
+reportlab==4.2.2
+
+# --- Testing ---
+pytest==8.2.2
+
+# --- Utilities ---
+python-multipart==0.0.9
+requests==2.32.3
+beautifulsoup4==4.12.3
+numpy>=1.26.4
+
+# --- Model Context Protocol (MCP) ---
+mcp>=1.0.0
+
